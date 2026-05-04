@@ -1,0 +1,97 @@
+/* breakpoint */
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+  .rightsidenav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .centerheader p {
+    font-size: 25px;
+  }
+  .rightsidenav {
+    display: none;
+  }
+
+  .banner-content .left {
+    display: none;
+  }
+  .centersection {
+    margin-right: 0px;
+  }
+  .top-holder {
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .leftsidenav a {
+    font-size: 16px;
+  }
+  .rightsidenav {
+    display: none;
+  }
+  .header-container .right {
+    width: 60%;
+    float: right;
+  }
+  .banner-content .left {
+    width: 33%;
+  }
+
+  .input-dash input[type="search"] {
+    width: 240px;
+  }
+  .centersection {
+    margin-right: 0px;
+  }
+  .top-holder {
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .brand-logo-dashboard {
+    display: none;
+  }
+  .banner-content .right {
+    margin-top: 44px;
+    margin-bottom: 44px;
+    width: 80%;
+  }
+  .banner-content .left {
+    display: none;
+  }
+  .top-brand-button {
+    display: none;
+  }
+  .login-footer {
+    display: none;
+  }
+
+  .input-dash input[type="search"] {
+    width: 240px;
+  }
+  .input-dash input[type="search"]:focus {
+    width: 240px;
+  }
+  .fa-question-circle-o {
+    display: none;
+  }
+
+  .rightsidenav {
+    display: none;
+  }
+
+  .top-holder {
+    left: 15px;
+    right: 0;
+  }
+  .centersection {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 0px 10px;
+  }
+}
